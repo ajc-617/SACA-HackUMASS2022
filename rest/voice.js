@@ -45,8 +45,8 @@ app.post('/voice', (request, response) => {
   // Render the response as XML in reply to the webhook request
   response.type('text/xml');
 
-  const accountSid = "AC3d1d0056245a4c69b797403e7b435164";
-  const authToken = "d394a14a6055bd986553805e08e1ac49";
+  const accountSid = 
+  const authToken = 
   const client = require('twilio')(accountSid, authToken);
 
   client.messages
